@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Work1</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container"> 
+                <div class="header-wrapper">
+                    <a class="logo">
+                        <img class="logo-image" src="image/Logo.svg"s alt="ItInCubator">
+                    </a>
+                    <ul class="menu">
+                        <li class="menu-items">
+                            <a href=""class="menu-link">MAIN</a>
+                        </li>
+                        <li class="menu-items">
+                            <a href=""class="menu-link">RATES</a>
+                        </li>
+                        <li class="menu-items">
+                            <a href=""class="menu-link">CREAT ACCOUNT</a>
+                        </li>
+                    </ul>
+                    <img class="menu-icon" src="/image/menu-burger.png" alt="menu-icon">
+                </div>
+            </div>
+        </header>
+
+        <section class="main">
+            <div class="container">
+                <div class="main-wrapper">
+                    <div class="main-info">
+                        <h1 class="main-title">Markup achievement</h1>
+                        <p class="text">The harder you work for something, the greater you’ll feel when you achieve it.</p>
+                        <button class="button">Learn More</button>
+                    </div>
+                    <img class="main-img" src="image/image.png" alt="image">
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="rates-section">
+            <div class="container">
+                <div class="rates-wrapper">
+                    <h2 class="title">Rates</h2>
+                    <p class="text">Failure will never overtake me if my determination to succeed is strong enough.</p>
+                    <div class="table-wrapper">
+                        <table class="table">
+                            <tr>
+                                <th class="table-subtitle gray">Features</th>
+                                <th class="table-title">Standart</th>
+                                <th class="table-title">Plus</th>
+                                <th class="table-title">PRO</th>
+                            </tr>
+                            <tr>
+                                <th class="table-subtitle">Theory</th>
+                                <td><img src="image/Mask.png" alt=""></td>
+                                <td><img src="image/Mask.png" alt=""></td>
+                                <td><img src="image/Mask.png" alt=""></td>
+                            </tr>
+                            <tr>
+                                <th class="table-subtitle">Practice</th>
+                                <td><img src="image/Close.png" alt=""></td>
+                                <td><img src="image/Mask.png" alt=""></td>
+                                <td><img src="image/Mask.png" alt=""></td>    
+                            </tr>
+                            <tr>
+                                <th class="table-subtitle">Code review</th>
+                                <td><img src="image/Close.png" alt=""></td>
+                                <td><img src="image/Close.png" alt=""></td>
+                                <td><img src="image/Mask.png" alt=""></td>
+                            </tr>
+                            <tr class="table-footer ">
+                                <th class="table-subtitle"><a href="" class="table-link">Have questions?</a></th>
+                                <td ><button class="table-button">get now</button></th>
+                                <td><button class="table-button active">get now</button></th>
+                                <td ><button class="table-button">get now</button></th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>   
+            </div>
+        </section>
+
+        <section class="create-account-section">
+            <div class="container">
+                <div class="account-wrapper">
+                    <div class="account-info-wrapper">
+                        <h2 class="title">Create your free account</h2>
+                        <p class="text">Let us first talk about dreams. We all know that dreams do play a role in our daily lives. The majority of people pay little attention to dreams. Dreams can help us find solutions to our daily problems and see things from a different perspective. Whenever we are dreaming, we can be who or what we want to be, regardless of the fact that in real life.</p>
+                        <ul class="list">
+                            <li class="list-item">Easy setup, fast start</li>
+                            <li class="list-item">Free forever for core features</li>
+                            <li class="list-item">14-day trial of premium features</li>
+                        </ul>
+                    </div>
+
+                    <form action="handler.js">`
+                        <input type="text" name="user-name" id="userName" placeholder="Full Name*">
+                        <div class="fields-wrapper" >
+                            <input type="email" name="user-email" id="user-email" placeholder="Email*">
+                            <input type="password" name="password" id="password" placeholder="Password*">
+                            <input type="date" name="date" id="date">   
+                            <select name="country" id="country">
+                                <option selected disabled>Country</option>
+                                <option>Belarus</option>
+                                <option>Spain</option>
+                                <option>Poland</option>
+                            </select>
+                        </div>
+
+                        <div class="stack">
+                            <label for="front">
+                                <input type="radio" name="Stack" id="front" checked>
+                                Frontend
+                            </label>
+                            <label for="back">
+                                <input type="radio" name="stack" id="back">
+                                Backend
+                            </label>
+                        </div>
+
+                        <fieldset>
+                            <legend>Favorite Techologies</legend>
+                            <label for="HTML">
+                                <input type="checkbox" name="HTML" id="HTML" checked>
+                                HTML
+                            </label>
+                            <label for="CSS">
+                                <input type="checkbox" name="CSS" id="CSS">
+                                CSS
+                            </label>
+                            <label for="React">
+                                <input type="checkbox" name="React" id="React">
+                                React
+                            </label>
+                            <label for="Styled-components">
+                                <input type="checkbox" name="Styled components" id="Styled-components">
+                                Styled components
+                            </label>
+                        </fieldset>
+                        <textarea name="text" id="text" placeholder="Something else about you..."></textarea>
+                        <button class="button" type="submit">registration</button>    
+                    </form>
+                </div>
+            </div>
+            
+        </section>
+        
+        <footer class="footer">
+            <span>Copyright © 2023. All rights reserve</span>
+            <!-- <span>Copyright © 2023. All rights reserve</span> -->
+        </footer>
+    </body>
+</html> 
